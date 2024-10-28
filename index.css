@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.proj {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proj:hover {
+    transform: scale(1.2); /* Scale up the image */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+#about-text{
+    color: #ffff;
+}
+
+/* Contact */
+#contact-link{
+    font-size: 1.5rem;
+}
+#gmap_canvas {
+    height: 60vh;
+    width: 100%;
+}
